@@ -2,10 +2,18 @@ ChangeLog
 =========
 
 
+New version
+-----------
+
+*New:*
+
+    * Add query timeout support, through the ``QUERY_TIMEOUT`` setting
+    * Handle paginated results, tunable by the ``PAGE_SIZE`` setting
+
 .. _v0.9.0:
 
-0.9.0 (master)
---------------
+0.9.0 (2017-01-18)
+------------------
 
 *Bufix:*
 
@@ -17,6 +25,7 @@ ChangeLog
 ------------------
 
 *New:*
+
     * Use ReconnectLDAPObject to survive temporary LDAP issues
 
 .. _v0.7.0:
