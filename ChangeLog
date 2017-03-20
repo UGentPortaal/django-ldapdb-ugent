@@ -2,8 +2,12 @@ ChangeLog
 =========
 
 
-New version
------------
+Next version
+------------
+
+*Bugfix:*
+
+    * Restore support for raw LDAP options
 
 *New:*
 
