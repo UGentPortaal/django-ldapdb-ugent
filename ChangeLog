@@ -11,8 +11,14 @@ Next version
 
 *New:*
 
+    * Add support for Django 1.11
     * Add query timeout support, through the ``QUERY_TIMEOUT`` setting
     * Handle paginated results, tunable by the ``PAGE_SIZE`` setting
+
+*Deprecation:*
+
+    * Drop support for Django 1.9 (we only support 2 LTS and 2 latest releases)
+
 
 .. _v0.9.0:
 
